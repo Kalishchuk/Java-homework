@@ -4,7 +4,7 @@ import java.util.concurrent.ThreadLocalRandom;
 
 public class Rugby {
     public static void main(String[] args) {
-        int countPlayers = 25;
+        int countPlayers = 26;
         int[] firstTeam = randomPlayersAges(countPlayers);
         int[] secondTeam = randomPlayersAges(countPlayers);
 
