@@ -8,17 +8,19 @@ public abstract class Matrix {
         Scanner scanner = new Scanner(System.in);
 
 
-        System.out.println("Enter count array in matrix: ");
+        System.out.print("Enter count array in matrix: ");
         int array = scanner.nextInt();
-        System.out.println("Enter count elements in the array: ");
+        System.out.print("Enter count elements in the array: ");
         int element = scanner.nextInt();
 
         int[][] matrix = matrixRandomaizer(array, element);
+        System.out.println();
 
         System.out.println("Matrix is: ");
         displayMatrix(matrix);
 
         int[][] transMatrix = transposition(matrix);
+        System.out.println();
         System.out.println("Transposition matrix: ");
         displayMatrix(transMatrix);
     }
