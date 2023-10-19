@@ -6,8 +6,6 @@ public class Person {
     private String city;
     private String phone;
 
-    //String name, String surname, String city, String phone
-
     public String personInfo() {
         this.setName(name);
         this.setSurname(surname);
