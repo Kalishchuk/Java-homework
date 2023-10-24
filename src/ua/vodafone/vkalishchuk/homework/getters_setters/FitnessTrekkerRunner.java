@@ -11,12 +11,13 @@ public class FitnessTrekkerRunner {
                 new FitnessTrekker("Ganna", "Ganivna", 6, 1, 1854, "ganna@gmail.com", "0674556677", 90.45, "130/90", 4305)};
 
         System.out.println("Initial accounts information");
-        printInfo(fitnessTrekkers);
+        showInfo(fitnessTrekkers);
 
         FitnessTrekker volodymyr = fitnessTrekkers[0];
         volodymyr.setSurname("Kalishchuk");
         volodymyr.setSteps(11987);
         volodymyr.setPressure("120/80");
+
 
 
         FitnessTrekker ganna = fitnessTrekkers[2];
@@ -25,13 +26,13 @@ public class FitnessTrekkerRunner {
 
         System.out.println();
         System.out.println("Accounts information after changing");
-        printInfo(fitnessTrekkers);
+        showInfo(fitnessTrekkers);
 
     }
 
-    private static void printInfo(FitnessTrekker[] fitnessTrekkers) {
+    private static void showInfo(FitnessTrekker[] fitnessTrekkers) {
         for (FitnessTrekker fitnessTrekker : fitnessTrekkers) {
-            fitnessTrekker.printAccountInfo();
+            fitnessTrekker.printInfo();
         }
     }
 }

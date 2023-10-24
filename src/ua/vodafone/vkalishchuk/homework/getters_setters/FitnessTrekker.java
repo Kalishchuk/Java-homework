@@ -88,7 +88,7 @@ public class FitnessTrekker {
         return age;
     }
 
-    public void printAccountInfo() {
+    public void printInfo() {
         System.out.println("FitnessTrekker:" + " name=" + name + ", surname=" + surname + ", birthDay=" + birthDay + ", birthMonth=" +
                 birthMonth + ", birthYear=" + birthYear + ", email=" + email + ", phone=" + phone +
                  ", weight=" + weight + ", pressure=" + pressure + ", steps=" + steps + ", age=" + age );
