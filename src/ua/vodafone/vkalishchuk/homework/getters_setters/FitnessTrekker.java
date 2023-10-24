@@ -14,6 +14,7 @@ public class FitnessTrekker {
     private int steps;
     private int age;
 
+
     public FitnessTrekker(String name, String surname, int birthDay, int birthMonth, int birthYear, String email, String phone, double weight, String pressure, int steps) {
         this.name = name;
         this.birthDay = birthDay;
