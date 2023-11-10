@@ -18,5 +18,6 @@ public class Draft {
             System.out.println(цикл);
         }
         System.out.println("Total " + (цикл - 1));
+        System.out.println();
     }
 }
